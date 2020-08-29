@@ -1,0 +1,23 @@
+Starting local server: /scratch/uo95/gj5914/starccm/mixed/15.02.007/STAR-CCM+15.02.007/star/bin/starccm+ -machinefile /local/spool/pbs/aux/7834858.gadi-pbs -mpi platform -np 6 -power -licpath 1999@81.134.157.100 -podkey k4j+t8IpNH57sxt54uWxxQ -server -rsh /opt/pbs/default/bin/pbs_tmrsh /g/data/uo95/backend/data/customer_2568500248670/Synchronised_Folder/sim10/Cube.sim
+Starting STAR-CCM+ parallel server
+MPI Distribution : IBM Platform MPI-09.01.04.03
+Host 0 -- gadi-cpu-clx-2670.gadi.nci.org.au -- Ranks 0-5
+Process rank 0 gadi-cpu-clx-2670.gadi.nci.org.au 82312
+Total number of processes : 6
+
+Simcenter STAR-CCM+ 2020.1 Build 15.02.007 (linux-x86_64-2.12/gnu7.1)
+
+License build date: 26 November 2019
+This version of the code requires license version 2020.02 or greater.
+Warning: unable to initiate contact with the license servers 1999@81.134.157.100:1999@59.100.207.26:1999@gadi-login-01.gadi.nci.org.au.  Trying again in 1 second.
+Warning: unable to initiate contact with the license servers 1999@81.134.157.100:1999@59.100.207.26:1999@gadi-login-01.gadi.nci.org.au.  Trying again in 2 seconds.
+Warning: unable to initiate contact with the license servers 1999@81.134.157.100:1999@59.100.207.26:1999@gadi-login-01.gadi.nci.org.au.  Trying again in 4 seconds.
+Warning: unable to initiate contact with the license servers 1999@81.134.157.100:1999@59.100.207.26:1999@gadi-login-01.gadi.nci.org.au.  Trying again in 8 seconds.
+Warning: unable to initiate contact with the license servers 1999@81.134.157.100:1999@59.100.207.26:1999@gadi-login-01.gadi.nci.org.au.  Trying again in 16 seconds.
+Licensing problem: Unable to find a path to any license file or license server.  Please create the CDLMD_LICENSE_FILE environment variable and point it to the license server.
+FLEXnet error: (0,0)
+MPI Application rank 0 exited before MPI_Finalize() with status 8
+error: Design STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 8)
+ This version of the code requires license version 2020.02 or greater.
+
