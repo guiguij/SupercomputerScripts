@@ -63,7 +63,8 @@ BatchFlagCommand="mesh,run"
 fi
 echo batch flag command after:
 echo $BatchFlagCommand
-#remove .flexlmrc in home directory to remove licence server history
+#remove .flexlmrc in home directory to remove licence server history 
+touch ~/.flexlmrc
 rm ~/.flexlmrc
 
 $StarCcmRunVersionPath -rsh /opt/pbs/default/bin/pbs_tmrsh -batch $BatchFlagCommand -machinefile $PBS_NODEFILE -mpi platform  -batch-report -np $PBS_NCPUS -power -licpath $LicensePath -podkey $Podkey -classpath /scratch/uo95/gj5914/JarFilesPOI3.15ForBasicPPT/ -renderthreads $PBS_NCPUS $SimulationPath > ${PBS_O_WORKDIR}/sim.log 
